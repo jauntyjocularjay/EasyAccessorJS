@@ -4,7 +4,7 @@
     "mocha": "^10.3.0"
   },
   "name": "easyaccessor",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "EasyAccessor.mjs",
   "directories": {
     "test": "test"
