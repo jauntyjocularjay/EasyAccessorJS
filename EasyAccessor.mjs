@@ -1,10 +1,13 @@
 class EasyAccessor {
     constructor(){
-        get = (property) =>{
+        this.get = (property) =>{
             return this[property]
         }
-        set = (property, value) => {
+        
+        this.set = (property, value) => {
             this[property] = value
         }
     }
 }
+
+export default EasyAccessor
