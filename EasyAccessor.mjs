@@ -10,4 +10,4 @@ class EasyAccessor {
     }
 }
 
-export default EasyAccessor
+export { EasyAccessor }
