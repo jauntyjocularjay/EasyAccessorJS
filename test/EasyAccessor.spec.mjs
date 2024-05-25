@@ -1,4 +1,4 @@
-import { default as EA } from '../EasyAccessor.mjs'
+import { EasyAccessor } from '../EasyAccessor.mjs'
 import {
     throwError,
     did,
@@ -17,7 +17,7 @@ import {
 
 
 
-class Color extends EA {
+class Color extends EasyAccessor {
     constructor(r,g,b){
         super()
         this.r = r
